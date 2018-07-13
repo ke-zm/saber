@@ -101,9 +101,8 @@ img{
 	margin-right:2px;
 }
 
-.product p span:last-child{
+.product p del{
 	color:#ccc;
-	text-decoration:line-through;
 	margin-left:2px;
 }
 

@@ -7,7 +7,7 @@ html,body{
 	bottom:0;
 }
 
-.my-content{
+.content{
 	position:absolute;
 	top:44px;
 	bottom:50px;
@@ -20,9 +20,10 @@ html,body{
 	float:left;
 	position:relative;
 	height:100%;
+	/* background: red; */
 }
 
-.cate-list .items{
+.cate-list a{
 	display:block;
 	height:45px;
 	line-height:45px;
@@ -32,7 +33,7 @@ html,body{
 	border-right:1px solid #e0e0e0;
 }
 
-.cate-list .items.active{
+.cate-list a.active{
 	background:#f5f5f5;
 	border-right:1px solid transparent;
 }
@@ -41,85 +42,31 @@ html,body{
 	margin-left:90px;
 	position:relative;
 	height:100%;
+	/* background: green; */
 }
 
 .cont-list .waper{
 	padding:5px;
-	background:#FFF;
 	overflow:hidden;
 	margin-top:10px;
 }
 
-.cont-list .items{
+.cont-list a{
 	float:left;
 	width:33.333%;
-	padding-bottom:5px;
+	padding:5px 0;
+	display: block;
 }
 
-.cont-list .items a{
-	display:block;
-}
-
-.cont-list .items img{
+.cont-list a img{
 	width:90%;
 	display:block;
 	margin:0 auto;
 }
 
-.cont-list .items span{
+.cont-list a span{
 	display:block;
 	text-align:center;
 	font-size:12px;
 	color:#8f8f94;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

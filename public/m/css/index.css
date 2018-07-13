@@ -19,11 +19,12 @@
 
 .brand .title{
 	width:100%;
-	vertical-align:top;
+	/* vertical-align:top; */
 }
 
 .brand .list{
 	padding:10px 0;
+	overflow: hidden;
 }
 
 .brand .list li{
